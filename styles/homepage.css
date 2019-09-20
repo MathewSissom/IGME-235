@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background: paleturquoise;
+} 
+
+/*wraper for title and subtitle*/
+#headerText{
+    margin: auto;
+    padding: 0;
+    flex: 1 1 auto;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headerText *{
+    margin: 0
+}
+
+#headerText h1{
+    border-bottom: 3px solid blue;
+    width: 35rem;
+}
+
+#headerText p{
+    margin-top: 3vh;
+}
+
+#headerImage{
+    flex: 0 1 auto;
+    height: 90vh;
+    margin-top: 10vh;
+}
+
+main{
+    margin: 10vh 5vw;
+    padding: 5vh 5vw;
+    background: paleturquoise;
+}
+
+main ul{
+    font-size: 1.5rem;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linkSpacer{
+    font-size: 3rem;
+}
+
+.projectLink{
+    text-decoration: none;
+    padding: 0;
+    margin: auto;
+}
+
+.projectLink:visited , .projectLink:link {
+    color: brown
+}
+
+.projectLink:hover{
+    color: brown
+}
+
+.projectLink:active{
+    color: red
+}
+
+/* *{
+    border: 1px solid black;
+} */
