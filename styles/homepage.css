@@ -5,7 +5,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: white;
+    background: #c9ddff;
 }
 
 header{
@@ -15,7 +15,7 @@ header{
     height: 100vh;
     padding: 0;
     margin: 0;
-    background: paleturquoise;
+    background: #247ba0;
 } 
 
 /*wraper for title and subtitle*/
@@ -29,6 +29,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    color: black;
 }
 
 #headerText *{
@@ -36,7 +37,7 @@ header{
 }
 
 #headerText h1{
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid #ffe2d1;
     width: 35rem;
 }
 
@@ -53,7 +54,25 @@ header{
 main{
     margin: 10vh 5vw;
     padding: 5vh 5vw;
-    background: paleturquoise;
+    background: #247ba0;
+}
+
+main h2{
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 0 45vw;
+}
+
+main *{
+    background: #ffe2d1;
+    border-radius: .75rem;
+}
+
+main p{
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    padding: 3vw;
+    margin: 3vh 3vw;
 }
 
 main ul{
@@ -67,6 +86,7 @@ main ul{
 
 .linkSpacer{
     font-size: 3rem;
+    color: #a0a0a0;
 }
 
 .projectLink{
@@ -76,15 +96,15 @@ main ul{
 }
 
 .projectLink:visited , .projectLink:link {
-    color: brown
+    color: #7a306c;
 }
 
 .projectLink:hover{
-    color: brown
+    color: #c93aaf;
 }
 
 .projectLink:active{
-    color: red
+    color: #f775df;
 }
 
 /* *{

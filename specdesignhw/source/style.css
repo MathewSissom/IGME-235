@@ -1,0 +1,131 @@
+body{
+    background-color: #e0e2db;
+    font-family: "Nunito", Arial, sans-serif;
+    margin: 0;
+}
+
+/*I couldn't get arial rounded bold to work consistently so I also included a google web font*/
+h1, h2, nav li a {
+    font-family: "Arial Rounded MT Bold", "Nunito", "Helvetica Rounded",Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+/*reuse the same style for header and footer*/
+header, footer{
+    display: flex;
+    height: auto;
+    background-color: #2e3532;
+    color: #d2d4c8;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+/*style to space logo and igme properly*/
+#logoContainer{
+    height: 8vh;
+    width : auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logoContainer img{
+    height: 8vh;
+    margin: 0 30px;
+}
+
+nav{
+    margin: 0 30px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li{
+    margin: 0 10px;
+}
+
+/*link coloring*/
+nav li a:link, nav li a:visited{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #d2d4c8;
+}
+nav li a:hover{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #bc0c06;
+}
+nav li a:active{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #ee1009;
+}
+
+#mainImage{
+    width: 100vw;
+}
+
+/*resue the same flexbox properties for the article previews and full articles*/
+#articlePreviews, #fullArticles{
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    width: auto;
+    margin: 30px 40px;
+    justify-content: space-between;
+}
+
+.articlePreview{
+    display: flex;
+    flex-flow: column nowrap;
+    height: auto;
+    width: 20%;
+    min-width: 12rem;
+    background-color: #d2d4c8;
+    margin: 10px auto;
+}
+
+.articlePreview h2{
+    margin: 20px 20px 10px;
+    color: #13295c;
+}
+
+
+.articlePreview p{
+    margin: 10px 20px 20px;
+    color: #2e3532;
+}
+
+/*ensure that images remain square while still filling up as much space as possible*/
+.articlePreview img{
+    height: auto;
+    width: 100%;
+}
+
+#fullArticles article{
+    background-color: #bc0c06;
+    color: #e0e2db;
+    margin: 10px auto;
+    width: 46.66%;
+    min-width: 25rem;
+}
+
+#fullArticles p, #fullArticles h2{
+    margin: 10px 20px 20px;
+}
+
+footer p{
+    margin: 40px;
+}
+
+#IgmeRit{
+    text-align: right;
+}
+
