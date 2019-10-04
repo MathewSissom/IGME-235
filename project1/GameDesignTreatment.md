@@ -26,7 +26,14 @@ The player can move the clown left and right using the left or right arrow keys,
 
 This game is relatively simple, and requires very little to be taught to the player in order for them to learn how to play. A small in game instructions screen will be shown when the game is first started, and can be accessed again through the main menu. This screen will tell the players how to move, and that they must keep the juggling balls in the air for as long as possible.
 
-##Screenshots
+## Screenshots
+<div style = "text-align:center">
+  <img src = "https://github.com/MatthewSissom/IGME-235/blob/master/project1/media/screenshot1.png" alt = "image of clown juggling few balls"><br>
+  <em>Clown with few balls (early game)</em><br>
+  <img src = "https://github.com/MatthewSissom/IGME-235/blob/master/project1/media/screenshot1.png" alt = "image of clown juggling few balls"><br>
+  <em>Clown in motion with many balls (late game)</em>
+ </div>
+  
 
 
 
