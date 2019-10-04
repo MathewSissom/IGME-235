@@ -22,7 +22,7 @@ The player will play as a clown who stands facing the camera with both hands out
 
 The player can move the clown left and right using the left or right arrow keys, or by pressing a and d. The character will intentionally be somewhat hard to control, having to accelerate up to his max speed, and to decelerate when he wants to stop.
 
-### Teaching and player learning
+### Teaching and Player Learning
 
 This game is relatively simple, and requires very little to be taught to the player in order for them to learn how to play. A small in game instructions screen will be shown when the game is first started, and can be accessed again through the main menu. This screen will tell the players how to move, and that they must keep the juggling balls in the air for as long as possible.
 
