@@ -1,4 +1,4 @@
-# Juggle Fever 
+﻿# Juggle Fever 
 *a game concept by Matthew Sissom*
 
 ## Concept
@@ -10,7 +10,7 @@ In Juggle Fever the player plays as a clown in a circus setting. When they juggl
 
 ## Esthetics
 
-The game will have a warm cartoonish feeling. Mostly warm colors will be used, a bright red curtain will be the main background, with the clown being dressed in orange, yellow, and white standing in front of it. The game will have circus music to accompany the player’s performance.
+The game will have a warm cartoonish feeling inspired by The Little Prince. Mostly warm pastel colors will be used, a bright red curtain will be the main background, with the clown being dressed in orange, yellow, and white standing in front of it. Juggling balls will have cooler colors so they stand out against the warm background. The game will have circus music to accompany the player’s performance.
 
 ## Gameplay
 
@@ -30,7 +30,7 @@ This game is relatively simple, and requires very little to be taught to the pla
 <div style = "text-align:center">
   <img src = "https://github.com/MatthewSissom/IGME-235/blob/master/project1/media/screenshot1.png" alt = "image of clown juggling few balls"><br>
   <em>Clown with few balls (early game)</em><br>
-  <img src = "https://github.com/MatthewSissom/IGME-235/blob/master/project1/media/screenshot1.png" alt = "image of clown juggling few balls"><br>
+  <img src = "https://github.com/MatthewSissom/IGME-235/blob/master/project1/media/screenshot2.png" alt = "image of clown juggling few balls"><br>
   <em>Clown in motion with many balls (late game)</em>
  </div>
   
