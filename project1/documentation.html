@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
     <head>
         <title>
-            JF Proposal
+            JF Documentation
         </title>
         <meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css?family=Aguafina+Script|Lobster|Varela+Round&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Aguafina+Script%7CLobster%7CVarela+Round&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
     <body>
@@ -14,26 +13,72 @@
         <header>
             <h1>Juggle Fever</h1>
             <nav>
-                <ul>
+                <ul>                    
+                    <!--dividers help space out elements in an asthetically pleasing way. 
+                    I tried to put them in using css so my html could be more semantic, 
+                    but couldn't do it with my current abilites-->
                     <li class = divider>●</li>
-                    <a href = "index.html" ><li>Home</li></a>
+                    <li><a href = "index.html" >Home</a></li>
                     <li class = divider>●</li>
-                    <a href = "project.html" ><li>Play!</li></a>
+                    <li><a href = "project.html" >Play!</a></li>
                     <li class = divider>●</li>
-                    <a href = "proposal.html" ><li>Proposal</li></a>
+                    <li><a href = "proposal.html" >Proposal</a></li>
                     <li class = divider>●</li>
-                    <a href = "documentation.html" ><li>Documentation</li></a>
+                    <li><a href = "documentation.html" >Documentation</a></li>
                     <li class = divider>●</li>
+                    
                 </ul>
             </nav>
         </header>
         <article>
-            <h2>Placeholder</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat culpa illo provident minus quidem maiores illum error officiis, voluptate amet, qui a odit pariatur sed dolores eveniet debitis aspernatur in doloribus dignissimos fuga. Possimus assumenda animi obcaecati hic nesciunt amet nihil at reprehenderit excepturi consectetur numquam molestiae expedita, maxime aperiam a ratione sequi distinctio officiis repellat recusandae. Assumenda repellat, esse, numquam natus quae cumque aspernatur error quo quaerat possimus alias sequi tempore, delectus vitae in excepturi voluptate autem. Deserunt natus earum consectetur! Tempore porro magni tempora quo explicabo corrupti nemo assumenda unde aperiam id odit doloremque laudantium incidunt reiciendis tenetur quibusdam eius, aut iure cum, voluptate nam nostrum adipisci vitae. Placeat, quaerat. Aliquam molestias cumque deleniti. Provident maiores omnis repellendus, perferendis sapiente accusamus modi ad amet culpa consequuntur rem minus eaque nemo. Quidem officia quod itaque delectus molestias labore sapiente doloremque suscipit nemo nisi. Accusantium libero repellat earum neque placeat similique esse odit quam exercitationem quo, laborum nisi vero cum tenetur quas expedita cupiditate, eius repellendus consequatur? Blanditiis nihil autem pariatur beatae unde culpa aspernatur voluptate quidem! Harum corporis, possimus ut sapiente dolor doloremque corrupti voluptatibus sint quo commodi expedita delectus odit incidunt, atque temporibus aut in ipsam voluptatum veniam.</p>
+            <h2>Process</h2>
+            <p>
+                When I started designing this website I wanted to capture the same sense of childlike joy that I wanted to convey in my game.
+                 This meant I ended up reusing a lot of the ideas that I put into the game when I created the site. I ended up using almost 
+                 the exact same color pallette as I did in the screenshots I drew. I think the warm pastel colors work really well with light 
+                 blues and yellows to create contrast that is strong enough that it could fit in a circus setting, but isn’t overwhelming.
+            </p>
+            <p>
+                I also chose to go with a very round look in most aspects of my design, which I feel further adds to that sense of childlike joy. 
+                I picked fonts that were well rounded with excessive decoration for my title and nav bar. Although I would have liked to use a 
+                similar font with the body text of my site as well, it would have been almost impossible to use a font in that style and still
+                 have the main text be readable, so I ended up going with the roundest san-serif font I could find. I also put a large amount 
+                 of padding around the body of my site with rounded corners to match with this rounded esthetic.
+            </p>   
+            <p>
+                The last thing I did to add create a joyous experience was add interactivity to the site. The two things that I associate most 
+                heavily with childish wonder are discovery and curiosity. I tried to incorporate this through css transitions and hidden easter 
+                eggs. The links on my site have a very quick transition going from blue to yellow, which have the primary function of making 
+                hovering over links less jarring, but also makes it really fun to quickly run the mouse pointer across the nav bar. The site 
+                also features two other easter eggs. If the user hovers the mouse over “Juggle Fever” on any page then the text will slowly grow 
+                larger and larger until it covers the entire page. Similarly the user can chase the footer off of the bottom of the screen by 
+                hovering over it. Although these features wouldn’t be discovered by most users I think that the users that did find them would 
+                enjoy them greatly, making it worth putting the effort in. I avoided putting easter eggs into the main text of the site because 
+                I didn’t want to hinder the user if they just wanted to read the main content of the site. 
+            </p>
+            <p>
+                Overall I enjoyed making this site and am happy with the end result. 
+            </p>
         </article>
+        <section>
+            <h2>Sources</h2>
+            <p>
+                All images are my own, created in <a href="https://sketchbook.com/">Autodesk Sketchbook</a><br><br>
+
+                I used many different tutorials from <a href ="https://www.w3schools.com/">w3schools</a> for both html and css. 
+                They’re a great resource and I would highly recommend them to any beginning web developer.<br><br>
+                    
+                I used this <a href="https://stackoverflow.com/questions/14389566/stop-css-transition-from-firing-on-page-load">Stack Overflow post</a> to work around a bug in chrome<br><br>
+
+                Title, nav bar, and body fonts all provided by <a href="https://fonts.google.com/?query=agua&selection.family=Aguafina+Script%7CLobster%7CVarela+Round">Google Fonts</a>
+            </p>
+        </section>
         <footer>
             Made by Mattew Sissom for IGME 235
         </footer>
     </div>
+    <!--Workaround for a bug in chrome with transitions. 
+    For more info see here: https://stackoverflow.com/questions/14389566/stop-css-transition-from-firing-on-page-load-->
+    <script> </script>
     </body>
 </html>

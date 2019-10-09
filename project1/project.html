@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
     <head>
         <title>
-            JF Proposal
+            Juggle Fever
         </title>
         <meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css?family=Aguafina+Script|Lobster|Varela+Round&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Aguafina+Script%7CLobster%7CVarela+Round&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
     <body>
@@ -14,33 +13,41 @@
         <header>
             <h1>Juggle Fever</h1>
             <nav>
-                <ul>
+                <ul>                    
+                    <!--dividers help space out elements in an asthetically pleasing way. 
+                    I tried to put them in using css so my html could be more semantic, 
+                    but couldn't do it with my current abilites-->
                     <li class = divider>●</li>
-                    <a href = "index.html" ><li>Home</li></a>
+                    <li><a href = "index.html" >Home</a></li>
                     <li class = divider>●</li>
-                    <a href = "project.html" ><li>Play!</li></a>
+                    <li><a href = "project.html" >Play!</a></li>
                     <li class = divider>●</li>
-                    <a href = "proposal.html" ><li>Proposal</li></a>
+                    <li><a href = "proposal.html" >Proposal</a></li>
                     <li class = divider>●</li>
-                    <a href = "documentation.html" ><li>Documentation</li></a>
+                    <li><a href = "documentation.html" >Documentation</a></li>
                     <li class = divider>●</li>
                 </ul>
             </nav>
         </header>
-        <article>
+        <article class="screenshots">
             <img id = "gameImg" src="media/screenshot2.png" alt="temp image of gameplay">
+            <p id = "underConstruction">
+                The game is still under construction...
+            </p>
         </article>
         <section>
-            <h2>Controls</h2>
-            <p>Lorem, ipsum dolor sit amet <br><br>
-                consectetur adipisicing elit. <br>
-                Possimus maiores iusto fugit <br><br>
-                distinctio voluptatibus alias voluptas, <br>
-                 similique voluptatem ducimus non.</p>
+            <h2>Instructions</h2>
+            <p>
+                Use left and right arrow keys or 'a' and 'd' to move<br><br>
+                Hit juggling balls with your hands to throw them<br><br>
+                Don't let balls hit the ground or the game, the show, and your juggling carrer are over. <br>
         </section>
         <footer>
             Made by Mattew Sissom for IGME 235
         </footer>
     </div>
+    <!--Workaround for a bug in chrome with transitions. 
+    For more info see here: https://stackoverflow.com/questions/14389566/stop-css-transition-from-firing-on-page-load-->
+    <script> </script>
     </body>
 </html>

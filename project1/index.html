@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
     <head>
         <title>
             Juggle Fever
         </title>
         <meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css?family=Aguafina+Script|Lobster|Varela+Round&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Aguafina+Script%7CLobster%7CVarela+Round&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
     <body>
@@ -15,15 +14,18 @@
             <h1>Juggle Fever</h1>
             <nav>
                 <ul>
-                    <li class = divider>●</li>
-                    <a href = "index.html" ><li>Home</li></a>
-                    <li class = divider>●</li>
-                    <a href = "project.html" ><li>Play!</li></a>
-                    <li class = divider>●</li>
-                    <a href = "proposal.html" ><li>Proposal</li></a>
-                    <li class = divider>●</li>
-                    <a href = "documentation.html" ><li>Documentation</li></a>
-                    <li class = divider>●</li>
+                    <!--dividers help space out elements in an asthetically pleasing way. 
+                        I tried to put them in using css so my html could be more semantic, 
+                        but couldn't do it with my current abilites-->
+                        <li class = divider>●</li>
+                        <li><a href = "index.html" >Home</a></li>
+                        <li class = divider>●</li>
+                        <li><a href = "project.html" >Play!</a></li>
+                        <li class = divider>●</li>
+                        <li><a href = "proposal.html" >Proposal</a></li>
+                        <li class = divider>●</li>
+                        <li><a href = "documentation.html" >Documentation</a></li>
+                        <li class = divider>●</li>
                 </ul>
             </nav>
         </header>
@@ -32,19 +34,16 @@
             <h2>
             Welcome to Juggle Fever! 
             </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolor 
-            voluptatum libero neque, deleniti expedita, similique ratione iste perferendis beatae, obcaecati 
-            ipsa? Nesciunt quod laudantium incidunt! Quaerat iste eligendi, corrupti aperiam commodi consequuntur 
-            doloribus et fugit totam pariatur, error autem, vitae enim? </p>
-            <p>Aut quis officiis ex provident ullam unde 
-            facere eius, nesciunt repellendus rem nemo sunt in voluptas, aliquid iure voluptatum quam beatae dicta 
-            deleniti ipsum! Eaque numquam natus quod possimus distinctio ut cum aperiam laboriosam vel asperiores 
-            necessitatibus, voluptas facilis. Illo deserunt laudantium repudiandae itaque temporibus veniam facilis 
-            quas in dolor eius vitae sunt a, nobis enim animi magnam.</p>
+            <p>This is the future home of Jungle Fever, an exciting arcade game that is easy to learn and fun to play. 
+                The game itself is still under construction, but you can read about it in the <a href="proposal.html">proposal</a>, or 
+                learn more about the creation of this website in the <a href="documentation.html">documentation</a> section. </p>
         </article>
         <footer>
             Made by Mattew Sissom for IGME 235
         </footer>
     </div>
+    <!--Workaround for a bug in chrome with transitions. 
+    For more info see here: https://stackoverflow.com/questions/14389566/stop-css-transition-from-firing-on-page-load-->
+    <script> </script>
     </body>
 </html>

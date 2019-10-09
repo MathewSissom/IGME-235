@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
     <head>
         <title>
             JF Proposal
         </title>
         <meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css?family=Aguafina+Script|Lobster|Varela+Round&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Aguafina+Script%7CLobster%7CVarela+Round&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
     <body>
@@ -14,15 +13,18 @@
         <header>
             <h1>Juggle Fever</h1>
             <nav>
-                <ul>
+                <ul>                    
+                    <!--dividers help space out elements in an asthetically pleasing way. 
+                    I tried to put them in using css so my html could be more semantic, 
+                    but couldn't do it with my current abilites-->
                     <li class = divider>●</li>
-                    <a href = "index.html" ><li>Home</li></a>
+                    <li><a href = "index.html" >Home</a></li>
                     <li class = divider>●</li>
-                    <a href = "project.html" ><li>Play!</li></a>
+                    <li><a href = "project.html" >Play!</a></li>
                     <li class = divider>●</li>
-                    <a href = "proposal.html" ><li>Proposal</li></a>
+                    <li><a href = "proposal.html" >Proposal</a></li>
                     <li class = divider>●</li>
-                    <a href = "documentation.html" ><li>Documentation</li></a>
+                    <li><a href = "documentation.html" >Documentation</a></li>
                     <li class = divider>●</li>
                 </ul>
             </nav>
@@ -38,7 +40,7 @@
                 <h2>Story</h2>
                 <p>
                     In Juggle Fever the player plays as a clown in a circus setting. When they 
-                    juggle properly the will get to feel all the highs that come with being a professional 
+                    juggle properly they will get to feel all the highs that come with being a professional 
                     clown. The player will relish the heat of the spotlight, and be adored by cheering fans. 
                     If the player fails to juggle properly they will feel the crushing weight of disappointment, 
                     and know that they will never be the master juggler that their father wanted them to be. 
@@ -81,7 +83,7 @@
                     balls in the air for as long as possible.
                 </p>
             </section>
-            <section id = screenshots>
+            <section class = screenshots>
                 <h2>Screenshots</h2>
                 <img src="media/screenshot1.png" alt = "Image of clown with few balls">
                 <p>
@@ -94,9 +96,20 @@
                     There are many balls and the player is frantically trying to catch them all.
                 </p>
             </section>
+            <article>
+                <h2>About the developer</h2>
+                <p>
+                    Matthew Sissom is a second year Game Design and Development major at RIT. When he’s not 
+                    doing schoolwork he’s usually working on his many personal projects, playing the latest 
+                    weird indy games, or climbing.
+                </p>
+            </article>
         <footer>
             Made by Mattew Sissom for IGME 235
         </footer>
     </div>
+    <!--Workaround for a bug in chrome with transitions. 
+    For more info see here: https://stackoverflow.com/questions/14389566/stop-css-transition-from-firing-on-page-load-->
+    <script> </script>
     </body>
 </html>
